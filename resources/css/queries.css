@@ -1,0 +1,146 @@
+/* Small phones: from 0 to 480px; */
+@media only screen and (max-width: 480px) {
+	section {
+		padding: 25px 0;
+	}
+	.contact_form {
+		width: 100%;
+	}
+}
+
+/* Small phones to small tablets: from 481px to 767px; */
+@media only screen and (max-width: 767px) {
+	body {
+		font-size: 16px;
+	}
+	section {
+		padding: 30px 0;
+	}
+	.row,
+	.hero_text_box {
+		padding: 0 4%;
+	}
+	.col {
+		width: 100%;
+		margin: 0 0 4% 0;
+	}
+	.main_nav {
+		display: none;
+	} 
+	.mobile_nav_icone {
+		display: inline-block;
+	}
+	.main_nav {
+		float: left;
+		margin-top: 35px;
+		margin-left: 25px;
+	}
+	.main_nav li {
+		display: block;
+	}
+	.main_nav li a:link,
+	.main_nav li a:visited {
+		display: block;
+		border: 0;
+		padding: 10px 0;
+		font-size: 100%;
+	}
+	.sticky .main_nav li a:link,
+	.sticky .main_nav li a:visited {
+		padding: 10px 0;
+	}
+	.sticky .main_nav {
+		margin-top: 10px;
+	}
+	.mobile_nav_icone {
+		margin-top: 10px;
+	}
+	.mobile_nav_icone i {
+		color: #555;
+	}
+	h1 {
+		font-size: 180%;
+	}
+	h2 {
+		font-size: 150px;
+	}
+	.long_copy {
+		width: 100%;
+		margin-left: 0%;
+	}
+	.app_screen {
+		width: 40%;
+	}
+	.steps_box:first-child {
+		text-align: center;
+	}
+	.work_steps div {
+		height: 40px;
+		width: 40px;
+		margin-right: 15px;
+		padding: 4px;
+	}
+	.work_steps {
+		margin-bottom: 20px;
+	}
+	.work_steps:last-of-type {
+		margin-bottom: 20px;
+	}
+}
+
+/* Small tablet to big tablet: from 768px to 1023px; */
+@media only screen and (max-width: 1023px) {
+	body {
+		font-size: 18px;
+	}
+	section {
+		padding: 60px 0;
+	}
+	.long_copy {
+		width: 80%;
+		margin-top: 10%;
+	}
+	.steps_box {
+		margin-top: 10px;
+	}
+	.steps_box:last-child {
+		margin-top: 10px;
+	}
+	.work_steps {
+		margin-bottom: 40px;
+	}
+	.work_steps:last-of-type {
+		margin-bottom: 60px;
+	}
+	.app_screen {
+		width: 50%;
+	}
+	.icon_small {
+		width: 17px;
+		margin-right: 5px;
+	}
+	.city_feature {
+		font-size: 90%;
+	}
+	.plan_box {
+		width: 100%;
+		margin-left: 0%;
+	}
+	.plan_price {
+		font-size: 250%;
+	}
+	.contact_form {
+		width: 80%;
+	}
+}
+
+/* Big tablet to 1200px(widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+	.hero_text_box {
+		width: 100%;
+		padding: 0 2%;
+	}
+	.row {
+		padding: 0 2%;
+	}
+}
